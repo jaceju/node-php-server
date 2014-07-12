@@ -1,4 +1,4 @@
-# node-php-server [![Build Status](https://secure.travis-ci.org/git@github.com:jaceju/node-php-server.git/node-php-server.png?branch=master)](https://travis-ci.org/git@github.com:jaceju/node-php-server.git/node-php-server)
+# node-php-server [![Build Status](https://travis-ci.org/jaceju/node-php-server.svg?branch=master)](https://travis-ci.org/jaceju/node-php-server)
 
 Create a built-in PHP server for node.js.
 
