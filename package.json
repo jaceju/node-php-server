@@ -1,0 +1,24 @@
+{
+  "name": "node-php-server",
+  "version": "0.0.0",
+  "dependencies": {
+    "through2": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test"
+  },
+  "author": {
+    "url": "https://github.com/git@github.com:jaceju/node-php-server.git"
+  },
+  "main": "./lib/index.js",
+  "repository": "git@github.com:jaceju/node-php-server.git/node-php-server",
+  "devDependencies": {
+    "mocha": "*",
+    "must": "*",
+    "gulp": "*",
+    "gulp-util": "*",
+    "gulp-jshint": "*",
+    "gulp-mocha": "*",
+    "jshint-stylish": "*"
+  }
+}
