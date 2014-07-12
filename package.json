@@ -2,7 +2,8 @@
   "name": "node-php-server",
   "version": "0.0.0",
   "dependencies": {
-    "through2": "*"
+    "through2": "*",
+    "open": "*"
   },
   "scripts": {
     "test": "./node_modules/gulp/bin/gulp.js test"
