@@ -13,13 +13,14 @@
   "main": "./lib/index.js",
   "repository": "https://github.com/jaceju/node-php-server.git",
   "devDependencies": {
-    "mocha": "*",
-    "must": "*",
     "gulp": "*",
-    "gulp-util": "*",
     "gulp-jshint": "*",
     "gulp-mocha": "*",
-    "jshint-stylish": "*"
+    "gulp-util": "*",
+    "jshint-stylish": "*",
+    "mocha": "*",
+    "must": "*",
+    "sleep": "^1.1.8"
   },
   "licenses": [
     {
