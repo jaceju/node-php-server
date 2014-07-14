@@ -6,7 +6,7 @@ describe('node-php-server', function() {
     before(function () {
         phpServer.createServer({
             port: 8000,
-            router: __dirname + '/../lib/server.php'
+            router: __dirname + '/../examples/server.php'
         });
         console.log('\nStarted');
     });
