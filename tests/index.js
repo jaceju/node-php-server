@@ -8,6 +8,7 @@ describe('node-php-server', function() {
     before(function () {
         phpServer.createServer({
             port: 8000,
+            base: __dirname + '/../examples/',
             router: __dirname + '/../examples/server.php'
         });
         sleep.sleep(1);
@@ -24,11 +25,14 @@ describe('node-php-server', function() {
         });
 
         it('should return 200', function(done) {
-            http.get('http://127.0.0.1:8000/', function(res) {
-                res.on('data', function() {
+            http.get('http://127.0.0.1:8000/css/style.css', function(res) {
+                var data = '';
+                res.on('data', function(chunk) {
+                    data += chunk;
                 });
 
                 res.on('end', function() {
+                    expect(data).to.equal('@charset \'utf-8\';');
                     expect(res.statusCode).to.equal(200);
                     done();
                 });
