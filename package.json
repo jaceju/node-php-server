@@ -1,18 +1,17 @@
 {
   "name": "node-php-server",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "dependencies": {
-    "through2": "*",
     "open": "*"
   },
   "scripts": {
     "test": "./node_modules/gulp/bin/gulp.js test"
   },
   "author": {
-    "url": "https://github.com/git@github.com:jaceju/node-php-server.git"
+    "url": "https://github.com/jaceju"
   },
   "main": "./lib/index.js",
-  "repository": "git@github.com:jaceju/node-php-server.git/node-php-server",
+  "repository": "https://github.com/jaceju/node-php-server.git",
   "devDependencies": {
     "mocha": "*",
     "must": "*",
@@ -21,5 +20,11 @@
     "gulp-jshint": "*",
     "gulp-mocha": "*",
     "jshint-stylish": "*"
-  }
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+    }
+  ]
 }
