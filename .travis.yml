@@ -6,6 +6,6 @@ php:
   - 5.4
 script:
   - npm install
-  - gulp test
+  - npm test
 email:
     on_success: never
