@@ -6,7 +6,7 @@ node_js:
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install python-software-properties -qq
-  - sudo add-apt-repository ppa:ondrej/php5-5.6
+  - sudo add-apt-repository ppa:ondrej/php5-5.6 -y
   - sudo apt-get update -qq
   - sudo apt-get upgrade -qq
   - sudo apt-get install -qq php5
