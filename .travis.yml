@@ -1,6 +1,4 @@
-language:
-  - php
-  - node_js
+language: node_js
 php:
   - "5.4"
   - "5.5"
