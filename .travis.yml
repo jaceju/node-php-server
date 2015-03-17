@@ -4,6 +4,6 @@ node_js:
   - "0.12"
   - "0.11"
 before_install:
-  - sudo apt-get install -qq php
+  - sudo apt-get install -qq php5
 email:
   on_success: never
