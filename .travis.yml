@@ -1,13 +1,31 @@
 language: node_js
+
 node_js:
-  - "iojs-v1.0.4"
+  - "5.7"
+  - "5.6"
+  - "4.3"
   - "0.12"
-  - "0.11"
+  - "0.10"
+
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install python-software-properties -qq
   - sudo add-apt-repository ppa:ondrej/php5-5.6 -y
+  - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
   - sudo apt-get update -qq
   - sudo apt-get install -qq php5
+  - sudo apt-get install -qq gcc-4.8 -y
+
+install:
+  - CXX="g++-4.8" CC="gcc-4.8" npm install
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - gcc-4.8
+      - g++-4.8
+
 email:
   on_success: never
