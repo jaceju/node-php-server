@@ -17,6 +17,7 @@
     "gulp-jshint": "*",
     "gulp-mocha": "*",
     "gulp-util": "*",
+    "jshint": "*",
     "jshint-stylish": "*",
     "mocha": "*",
     "must": "*",
